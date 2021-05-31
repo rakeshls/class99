@@ -1,0 +1,6 @@
+f=open("hello.txt")
+rline=f.read()
+print(rline)
+words=rline.split()
+print("number of words:")
+print(words)
